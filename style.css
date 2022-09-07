@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul li{
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.navbar-container{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+   width: 35vw;
+    
+}
+.list :nth-child(1)
+{
+    font-weight:bold ;
+    border-bottom: 2px solid #1f1f1f;
+}
+.button-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 8vw;
+    position: relative;
+    right: 0px;
+    top: 0;
+   
+}
+.nav-button{
+    padding: 6px 15px;
+    border: 2px solid #1f1f1f;
+    border-radius: 8px;
+    position: relative;
+    top: 0;
+    right: 5px;
+    
+}
+.search-icon{
+    position: relative;
+    top: 0;
+    right: 20px;
+   
+}
+
+
+/* image */
+.hero-container>div> img
+{
+   position: relative;
+   top: 50px;
+   height: 80vh;
+   width: 28vw;
+}
+.hero-container .square img{
+    position: absolute;
+    bottom: 0px;
+    left: 20.5vw;
+    height: 50vh;
+    display:inline-block;
+   
+}
+.hero-container .star{
+    position: absolute;
+    right: 10vw;
+    top: 21vh;
+}
+.hero-container .star img{
+    height: 7vh;
+}
+.hero-container .globe{
+
+    position: absolute;
+    right: 40vw;
+    top: 15vh;
+} 
+.hero-container .globe img{
+    height: 7vh;
+    
+} 
+
+/* right div */
+.hero-container-right{
+    width: 50vw;
+    position: absolute;
+    top: 30vh;
+    right: 6vw;
+}
+.hero-heading{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.hero-description{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.hero-container-right :nth-child(3){
+ text-align: center;
+ display: flex;
+ justify-content: center;
+
+}
+.icons{
+    display: block;
+}
+
+.button-email{
+    border-radius: 6px;
+    margin: 0 10px;
+    padding: 5px 10px;
+   
+}
+.button-join{
+    background-color: #1f1f1f;
+    color: #fff;
+    border-radius: 6px;
+    padding: 5px 10px;
+    
+}
+
+
+/* contact us  */
+.contact-heading{
+    
+    margin-top: 18vh;
+    text-align: center;
+    color: #1f1f1f;
+    opacity: 0.9;
+    font-weight: normal;
+}
+.icons{
+    display: flex;
+    justify-content:center;
+    flex-direction:row;
+    margin-top: 5px;
+}
+.icons span{
+    padding: 0 5px;
+}
