@@ -23,14 +23,13 @@ a{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
 }
 .list{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
-   width: 35vw;
+    width: 35vw;
     
 }
 .list :nth-child(1)
@@ -161,4 +160,44 @@ a{
 }
 .icons span{
     padding: 0 5px;
+}
+
+
+
+
+/* making them responsive  */
+@media (max-width:1100px)
+{
+    body{
+        /* background-color: red; */
+    }
+  /* navbar  */
+  .list{
+    width: 30vw;
+  }
+    .square{
+      opacity: 0.2;
+        
+    }
+    .person-img img {
+        object-fit: contain;
+    }
+    .hero-heading{
+        font-size: 20px;
+    }
+    .hero-description{
+        font-size: 16px;
+    }
+
+    .nav-button{
+        display: none;
+    }
+}
+
+/* another media query  */
+@media (max-width:850px)
+{
+  .list{
+    display: none;
+  }
 }
