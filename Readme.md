@@ -7,4 +7,7 @@ Time to finish : 2 hour
 
 [website link](https://first-project-ineuron.netlify.app/)
 
+
+![image](assets/project-1.png)
+
 ![](https://img.shields.io/badge/learn--code-self--taught-orange)
